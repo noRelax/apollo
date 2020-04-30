@@ -112,9 +112,9 @@ if [[ ! -f PATH_TO_JAR && -d current ]]; then
     done
 fi
 
-if [[ -f $SERVICE_NAME".jar" ]]; then
-  rm -rf $SERVICE_NAME".jar"
-fi
+#if [[ -f $SERVICE_NAME".jar" ]]; then
+#  rm -rf $SERVICE_NAME".jar"
+#fi
 
 printf "$(date) ==== Starting ==== \n"
 
